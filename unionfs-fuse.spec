@@ -5,6 +5,7 @@ Release:	1
 License:	BSD
 Group:		Applications
 Source0:	http://podgorny.cz/unionfs-fuse/releases/%{name}-%{version}.tar.bz2
+# Source0-md5:	479f06c81c49c9c5b4340df44426c52a
 URL:		http://podgorny.cz/moin/UnionFsFuse
 BuildRequires:	libfuse-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
